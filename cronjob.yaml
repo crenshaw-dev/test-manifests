@@ -3,7 +3,7 @@ kind: CronJob
 metadata:
   name: hello
 spec:
-  suspended: true
+  suspend: true
   schedule: "* * * * *"
   jobTemplate:
     spec:
